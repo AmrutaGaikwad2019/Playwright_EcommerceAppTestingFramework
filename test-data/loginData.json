@@ -1,0 +1,17 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+        "username": "wrong_user",
+        "password": "",
+        "expected": "Epic sadface: Password is required"
+    },
+    {
+        "username": "",
+        "password": "secret",
+        "expected": "Epic sadface: Username is required"
+    }
+]
